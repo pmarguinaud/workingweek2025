@@ -1,1 +1,23 @@
 # cmake & fxtran
+
+## Platforms
+
+This is supposed to work on ECMWF clusters and Leonardo.
+
+## Pre-requisistes
+
+### Perl & Perl modules
+
+Some Perl modules are required, but have already been installed on my account, so you just need to point to my HOME. It is not possible to provide an exhaustive list, as some are already pre-installed with the OS.
+
+Perl modules installed in my HOME have been compiled using the Perl executable /usr/bin/perl, so if you are using a custom Perl install, you need to remove that from your PATH, and use /usr/bin/perl instead.
+
+### fxtran
+
+The fxtran executable should be in your PATH.
+
+### Getting everything
+
+This [script][pre-fxtran.sh] can do the job for you; it will:
+- create a link from my perl5 directory into your HOME
+- create a env-fxtran.sh file that you can source to get you environment ready
