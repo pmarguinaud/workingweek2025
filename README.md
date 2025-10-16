@@ -39,3 +39,10 @@ $ ./ial-bundle \
   --build-type FXTRAN_GPUCC80_O1_NVHPC25.9_CUDA12.9_HPCX2.24 \
   --with-openacc
 ```
+## Result
+
+If you prefer to look directory at the result, you can see that here:
+```
+ecmwf:/perm/sor/IAL-bundle
+leonardo:/leonardo_scratch/fast/DestE_330_25/pmarguin/IAL-bundle
+```
