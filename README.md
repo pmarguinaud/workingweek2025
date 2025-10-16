@@ -2,7 +2,7 @@
 
 ## Platforms
 
-This is supposed to work on ECMWF clusters and Leonardo.
+The following is supposed to work on ECMWF clusters and Leonardo.
 
 ## Pre-requisistes
 
@@ -21,3 +21,9 @@ The fxtran executable should be in your PATH.
 This [script](pre-fxtran.sh) can do the job for you; it will:
 - create a link from my perl5 directory into your HOME
 - create a env-fxtran.sh file that you can source to get you environment ready
+
+### Installing yourself
+
+This [script](perl5.sh) shows how to install everything. Some Perl modules may be missing, but you could add them yourself.
+
+## 
