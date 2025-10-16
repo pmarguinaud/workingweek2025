@@ -18,6 +18,6 @@ The fxtran executable should be in your PATH.
 
 ### Getting everything
 
-This [script][pre-fxtran.sh] can do the job for you; it will:
+This [script](pre-fxtran.sh) can do the job for you; it will:
 - create a link from my perl5 directory into your HOME
 - create a env-fxtran.sh file that you can source to get you environment ready
