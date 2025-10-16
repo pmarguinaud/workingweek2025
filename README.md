@@ -26,4 +26,16 @@ This [script](pre-fxtran.sh) can do the job for you; it will:
 
 This [script](perl5.sh) shows how to install everything. Some Perl modules may be missing, but you could add them yourself.
 
-## 
+## Compiling with cmake & fxtran pre-processing
+
+You need to run these commands, either on ECMWF cluster or on Leonardo; please note that you may want to user a fast filesystem and reserve a node for speeding up the compilation process:
+
+```
+$ source $HOME/env-fxtran.sh
+$ git clone -b CY50T1-workingweek https://github.com/pmarguinaud/IAL-bundle
+$ cd IAL-bundle
+$ ./ial-bundle \
+  build -j 32 --arch arch/nvhpc+fxtran/ --verbose \
+  --build-type FXTRAN_GPUCC80_O1_NVHPC25.9_CUDA12.9_HPCX2.24 \
+  --with-openacc
+```
