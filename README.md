@@ -28,7 +28,7 @@ This [script](perl5.sh) shows how to install everything. Some Perl modules may b
 
 ## Compiling with cmake & fxtran pre-processing
 
-You need to run these commands, either on ECMWF cluster or on Leonardo; please note that you may want to user a fast filesystem and reserve a node for speeding up the compilation process:
+You need to run these commands, either on ECMWF cluster or on Leonardo; please note that you may want to use a fast filesystem and reserve a node for speeding up the compilation process:
 
 ```
 $ source $HOME/env-fxtran.sh
