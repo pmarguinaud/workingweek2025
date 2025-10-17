@@ -10,12 +10,12 @@ PERL_LOCAL_LIB_ROOT="$HOME/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"
 PERL_MB_OPT="--install_base \"$HOME/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"; export PERL_MM_OPT;
 
-# cpan install -f File::Type 
-# cpan install -f List::MoreUtils 
-# cpan install -f XML::LibXML 
-# cpan install -f XML::SAX::Exception 
-# cpan install -f XML::XPath::Parser 
-# cpan install -f XML::Parser 
+cpan install -f File::Type 
+cpan install -f List::MoreUtils 
+cpan install -f XML::LibXML 
+cpan install -f XML::SAX::Exception 
+cpan install -f XML::XPath::Parser 
+cpan install -f XML::Parser 
 
 git clone https://github.com/pmarguinaud/fxtran
 cd fxtran
