@@ -24,7 +24,7 @@ This [script](pre-fxtran.sh) can do the job for you; it will:
 
 ### Installing yourself
 
-This [script](perl5.sh) shows how to install everything. Some Perl modules may be missing, but you could add them yourself.
+This [script](perl5.sh) shows how to install everything (Perl modules and fxtran). Some Perl modules may be missing, but you could add them yourself.
 
 ## Compiling with cmake & fxtran pre-processing
 
