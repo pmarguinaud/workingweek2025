@@ -34,6 +34,7 @@ You need to run these commands, either on ECMWF cluster or on Leonardo; please n
 $ source $HOME/env-fxtran.sh
 $ git clone -b CY50T1-workingweek https://github.com/pmarguinaud/IAL-bundle
 $ cd IAL-bundle
+$ ./ial-bundle create
 $ ./ial-bundle \
   build -j 32 --arch arch/nvhpc+fxtran/ --verbose \
   --build-type FXTRAN_GPUCC80_O1_NVHPC25.9_CUDA12.9_HPCX2.24 \
