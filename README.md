@@ -42,7 +42,7 @@ $ ./ial-bundle \
 ```
 ## Result
 
-If you prefer to look directory at the result, you can see that here:
+If you prefer to look directly at the result, you can see that here:
 ```
 ecmwf:/perm/sor/IAL-bundle
 leonardo:/leonardo_scratch/fast/DestE_330_25/pmarguin/IAL-bundle
